@@ -1,0 +1,141 @@
+% Christopher G. Blanks - Language phrasesheet -----------
+\documentclass[12pt,a4paper]{article}
+
+% general packages ------------------------------------
+\usepackage{amsmath}
+\usepackage{datetime}
+
+% aliases ---------------------------------------------
+\def\today{\the\day~\monthname~\the\year}
+\def\name{Christopher G. Blanks}
+
+% layout ---------------------------------------------
+\usepackage{multicol}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{setspace} % to allow change of line spacing
+
+% section style ----------------------------------------
+\usepackage{sectsty}
+\sectionfont{\rmfamily \mdseries \large}
+
+% font -----------------------------------------------
+\usepackage{fancyhdr}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+
+% paragraphs ------------------------------------------
+\setlength\parindent{0em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% configuration ---------------------------------------
+\onehalfspacing
+\frenchspacing % for uniform spacing after all punctuation
+\raggedbottom % to stop variable spacing between paragraphs
+\sloppy % to relax the rules for line breaking
+\pagestyle{empty} % supress headers and footers
+
+% the document ----------------------------------------
+\input{aliases}
+{\huge \thisLanguage~phrasesheet}
+\input{pronunciation}
+
+\section*{Numbers}
+
+\begin{tabular}{ccccccccccccc}
+\szero & \sone & \stwo & \sthree & \sfour & \sfive & \ssix & \sseven & \seight & \snine & \sten & \shundred & \sthousand \\
+\zero & \one & \two & \three & \four & \five & \six & \seven & \eight & \nine & \ten & \hundred & \thousand \\
+\end{tabular}
+
+\bigskip
+
+\begin{multicols}{2}
+
+  \section*{Essential vocabulary}
+
+   \begin{tabular}{ll}
+    yes & \yes \\
+    no & \no \\
+    please & \please \\
+    thank you & \thankyou \\
+    you're welcome & \yourewelcome \\ 
+    excuse me & \excuseme \\
+  \end{tabular}
+
+
+  \section*{Greetings}
+
+  \begin{tabular}{ll}
+    hello & \hello \\
+    good morning & \goodmorning \\
+    good day & \goodday \\
+    good evening & \goodevening \\
+    good night & \goodnight \\
+    goodbye & \goodbye \\
+    %%see you later & \seeyoulater \\
+  \end{tabular}
+
+
+  \section*{Eating and drinking}
+
+  \begin{tabular}{ll}
+    bon appetit & \bonappetit \\
+    cheers & \cheers \\
+    bill & \bill \\
+    water & \water \\
+    coffee & \coffee \\
+    beer & \beer \\
+    red wine & \redwine \\
+    white wine & \whitewine \\
+  \end{tabular}
+
+
+  \section*{Phrases}
+
+  \begin{tabular}{ll}
+    Can you speak English? & \canyouspeakEnglish \\
+    I (don't) understand. & \idontunderstand \\
+    How much? & \howmuch \\
+  \end{tabular}
+
+
+  \section*{Travel}
+
+  \begin{tabular}{ll}
+    hotel & \hotel \\
+    airport & \airport \\
+    taxi & \taxi \\
+    left & \left \\ 
+    right & \right \\
+    straight on & \straighton \\
+    here & \here \\
+  \end{tabular}
+
+
+  \section*{Toilets}
+
+  \begin{tabular}{ll}
+    Where are the toilets? & \wherearethetoilets \\
+    Women & \women \\
+    Men & \men \\
+  \end{tabular}
+
+
+  \section*{Safety}
+
+  \begin{tabular}{ll}
+    Help! & \help \\
+    Watch out! & \watchout \\ 
+    Exit & \exit \\
+  \end{tabular}
+
+
+\end{multicols}
+
+
+\end{document}
+
