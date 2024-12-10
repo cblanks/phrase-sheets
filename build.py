@@ -19,12 +19,12 @@ extensions = [ "out", "aux", "log" ]
 #  m a i n
 # set input files
 if 3>len(sys.argv):
-  print "python build.py group language"
+  print("python3 build.py group language")
 
 else:
   group = sys.argv[1]
   language = sys.argv[2]
-  print group, language
+  print(group, language)
   
   os.system( "cp %s_%s.tex %s.tex" % ( group, main, main ) )
   for f in files:
